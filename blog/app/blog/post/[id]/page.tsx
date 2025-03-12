@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Post({ params: { id } }: { params: { id: string } }) {
+export default function Post({ params: { id } }: any) {
   return (
     <div>
       <h3>Post #{id}</h3>
